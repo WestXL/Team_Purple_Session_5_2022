@@ -1,0 +1,61 @@
+#home header {
+    width: 100%;
+    min-height: 110px;
+    background-color: #444444;
+    background-image: no-repeat url(images/home.jpeg);
+}
+
+.showcase {
+    text-align: center;
+    color: #ffffff;
+    height: 850px;
+    background-image: url(images/home.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.showcase h1 {
+    font-size: 60px;
+}
+
+
+#home .main-header .logo img {
+    height: 100px;
+    margin: 0 2em 0 2em;
+    float: left;
+}
+
+.nav-item a {
+    margin-top: 1em;
+    color: #FFFFFF;
+}
+
+#home #motto {
+    left: 20px;
+    top: 300px;
+    position: relative;
+}
+
+#home #regSignBtn {
+    border: 0ch;
+    float: right;
+    margin-top: 1em;
+    margin-left: 2em;
+    color: #03B1F4;
+    border-radius: 25px;
+    padding: 10px;
+    width: 180px;
+    background-color: #FFFFFF;
+}
+
+#home #regBtn {
+    border: 0ch;
+    text-align: center;
+    margin-top: 1em;
+    margin-left: 2em;
+    color: #03B1F4;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: #FFFFFF;
+}
