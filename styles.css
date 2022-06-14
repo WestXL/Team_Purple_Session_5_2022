@@ -1,8 +1,18 @@
-#home header {
-    width: 100%;
-    min-height: 110px;
-    background-color: #444444;
-    background-image: no-repeat url(images/home.jpeg);
+#home .navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    align-items: center;
+    align-self: stretch;
+}
+
+#home .logo {
+    width: 200px;
 }
 
 #home .showcase {
@@ -15,22 +25,35 @@
     background-size: cover;
 }
 
-#home .navbar-dark .navbar-nav .nav-link {
-    color: white;
-}
-
-#home .logo {
-    width: 200px;
-}
-
 #home .showcase h1 {
     font-size: 60px;
 }
 
 #home #motto {
-    left: 20px;
+    /* left: 20px; */
     top: 300px;
     position: relative;
+}
+
+#home #vidButton1 {
+    border: 0ch;
+    top: 350px;
+    color: #03B1F4;
+    border-radius: 25px;
+    padding: 10px;
+    width: 240px;
+    background-color: #FFFFFF;
+}
+
+#home #vidButton2 {
+    border: 0ch;
+    margin-left: 2em;
+    top: 350px;
+    color: #03B1F4;
+    border-radius: 25px;
+    padding: 10px;
+    width: 240px;
+    background-color: #FFFFFF;
 }
 
 #home #regSignBtn {
@@ -97,17 +120,20 @@
 #home .hands h2,
 h4,
 p,
-li,
-button {
+li {
     margin-left: 15%;
 }
 
+#home .hands regClass {
+    text-align: center;
+}
+
 #home #regBtn2 {
-    align-self: center;
+
     margin: 0;
     position: relative;
     top: 5%;
-    left: 25%;
+    left: 40%;
     border: 0ch;
     color: #FFFFFF;
     border-radius: 25px;
@@ -138,6 +164,15 @@ h3,
 p,
 button {
     margin-left: 15%;
+}
+
+#home #locBtn {
+    border: 0ch;
+    color: #FFFFFF;
+    border-radius: 25px;
+    padding: 10px;
+    width: 240px;
+    background-color: #03B1F4;
 }
 
 #home .pins {
