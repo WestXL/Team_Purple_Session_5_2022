@@ -2,7 +2,6 @@
 <html>
 
     <head>
-        <title>Splashes - Children Swimming Lesson!</title>
         <meta charset="utf-8">
         <meta name="viewport"
               content="width = device-width, initial-scale = 1, shrink-to-fit = no">
@@ -17,64 +16,100 @@
     </head>
 
     <body id="home">
-        <header>
-            <div class="main-header">
-                <div class="logo">
-                    <img src="/images/logo-small.png">
-                </div>
-                <nav class="navbar navbar-expand-lg">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link"
-                               href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link"
-                               href="#">Swimming Lessons</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link"
-                               href="#">Swim Programs</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link"
-                               href="#">Adult Programs</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link"
-                               href="#">Locations</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link"
-                               href="#">Contact Us</a>
-                        </li>
-                    </ul>
-                    <button id="regSignBtn"> Register / Sign in </button>
-                </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand main-header"
+               href="#">
+                <img class="logo"
+                     src="/images/logo-small.png"
+                     loading="lazy">
+            </a>
+            <button class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse"
+                 id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link"
+                           href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                           href="#">Swimming Lessons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                           href="#">Swim Programs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                           href="#">Adult Programs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                           href="#">Locations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                           href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <button id="regSignBtn">Register / Sign in</button>
             </div>
-        </header>
+        </nav>
         <section class="showcase">
             <div>
                 <h1 id="motto">Learning it the Right Way,<br>Right from the Beginning</h1>
             </div>
         </section>
-        <div class="container1">
+        <section class="container1">
             <div class="vertical-center">
                 <img id="regBtn"></img>
             </div>
-        </div>
+        </section>
         <div class="container2">
             <div class="vertical-center">
                 <img id="banner"></img>
             </div>
         </div>
-        <main>
-        </main>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <!-- Bootstrap Popper -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <!-- Bootstrap JS -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <section class="showcase2 row">
+            <div class="hands col-5">
+                <h2>Hands On Teaching</h2>
+                <p> Splashes Swim School provides high quality swim instruction and the ideal
+                    environment for learning how to swim. Our swim instructors use specialized
+                    "muscle memory" teaching techniques that help our students progress at a quick
+                    rate. Grouped by age and ability, our students benefit from swim classes that
+                    offer personalized attention. It's never too late to learn to swim! </p>
+                <h4>Splashes Offers: </h4>
+                <ul>
+                    <li>Private Swimming lessons - All Locations</li>
+                    <li>Semi-Private Swimming lessons - All Locations</li>
+                    <li>Parent & Me (Baby) Swimming Lessons - Select Locations</li>
+                </ul>
+                <p>Select locations also offer additional swim programs such as swim competitions,
+                    swim teams, water aerobics, aquatic therapy, swim camps and more! To learn more
+                    about the Waterworks Family Swim School near you, select a location below.</p>
+                <p>Ready to sign up?</p>
+                <button id="regBtn2"> REGISTER NOW </button>
+            </div>
+        </section>
+        <section class="showcase3 row">
+            <div class="loc col-5">
+                <h1>Find a Splashes Swim School near you</h1>
+                <h3>Family Swim School Locations</h3>
+                <p> Splashes offers the finest professional swimming lessons from 21 swim schools
+                    and aquatic centers in California and Denver.</p>
+                <img src="images/home-our-locations-map.png"
+                     class="pins">
+                <button id="locBtn">Find a Location Near You</button>
+            </div>
+        </section>
     </body>
 
 </html>
