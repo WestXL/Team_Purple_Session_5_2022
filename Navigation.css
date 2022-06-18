@@ -14,21 +14,24 @@
 
 
   #home *:hover{
-    background-color: #03B1F4;
+    background: #ffff;
+	color:#444444 !important;
     transition: background-color 0.3s ease-in;
   }
 
-  /*#home *:hover{
-    background-color: #ffff;
-
+	.navbar-nav li:hover > a{
+	  background:#ffff;
+	  color:#444444 !important;
   }
-  */
 
-  #home .active {
-    color:#1A2E38;
+
+/* #home .active {
+    color:#1A2E38 !important;
     background-color: #ffff;
 
-  } 
+  } */
+
+
 
 .dropdown-menu {
     width:1170px;
