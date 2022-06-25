@@ -2,7 +2,7 @@
 #home .logo {
     width: 200px;
     height: 70px;
-    margin-left: -80px;
+    margin-left: -10px;
     padding-top: 0%;
     padding-bottom: 0%;
 }
@@ -32,9 +32,9 @@
   } */
 
 .dropdown-menu {
-    width:1170px;
+    width:1000px;
     height: 400px;
-    margin-left: -520px;
+    margin-left: -550px;
 }
 
 .btn {
@@ -182,8 +182,7 @@
 
 #home .hands h2,
 h4,
-p,
-li {
+p {
     margin-left: 15%;
 }
 
@@ -243,5 +242,4 @@ button {
     height: 850px;
     background-color: rgba(0, 0, 0, 0.0);
 }
-
 
