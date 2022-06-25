@@ -252,10 +252,33 @@ button {
       width: auto;
       margin-left:0px;
     }
+    .btn{
+        min-width: 350px;
+    }
   }
 
-  @media (min-width: 577px) and (max-width: 1199px) {
+  @media (min-width:577px) and (max-width:991px) {
     .dropdown-menu{
+        width: auto;
         margin-left:0px;
+      }
+      .btn{
+          min-width: 550px;
+      }
+    }
+  
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .dropdown-menu{
+        margin-left:-550px;
+    }
+    .btn{
+        min-width: 160px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .btn{
+        min-width: 160px;
     }
   }
