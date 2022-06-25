@@ -25,6 +25,10 @@
     transition: background-color 0.3s ease-in;
   }
 
+  .navbar-toggler[aria-expanded="true"] {
+    background-color: orange;
+  }
+
 /* #home .active {
     color:#1A2E38 !important;
     background-color: #ffff;
@@ -243,3 +247,15 @@ button {
     background-color: rgba(0, 0, 0, 0.0);
 }
 
+@media (max-width:576px) {
+    .dropdown-menu{
+      width: auto;
+      margin-left:0px;
+    }
+  }
+
+  @media (min-width: 577px) and (max-width: 1199px) {
+    .dropdown-menu{
+        margin-left:0px;
+    }
+  }
