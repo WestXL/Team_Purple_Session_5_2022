@@ -78,7 +78,48 @@
     padding-bottom: 0.3em;
 }
 
+@media (max-width:576px) {
+    .dropdown-menu{
+      width: auto;
+      margin-left:0px;
+    }
+    .btn{
+        min-width: 350px;
+    }
+    .col {
+       flex-grow:unset;
+    }
+  }
+  
 
+  @media (min-width:577px) and (max-width:991px) {
+    .dropdown-menu{
+        width: auto;
+        margin-left:0px;
+      }
+      .btn{
+          min-width: 550px;
+      }
+      .col {
+        flex-grow:unset;
+     }
+    }
+  
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .dropdown-menu{
+        margin-left:-550px;
+    }
+    .btn{
+        min-width: 160px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .btn{
+        min-width: 160px;
+    }
+  }
 
 
 /* copied from styles.css */
@@ -247,38 +288,87 @@ button {
     background-color: rgba(0, 0, 0, 0.0);
 }
 
-@media (max-width:576px) {
-    .dropdown-menu{
-      width: auto;
-      margin-left:0px;
-    }
-    .btn{
-        min-width: 350px;
-    }
-  }
+#home footer {
+    min-height: 600px;
+    background-image: url(images/footer-bg.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
-  @media (min-width:577px) and (max-width:991px) {
-    .dropdown-menu{
-        width: auto;
-        margin-left:0px;
-      }
-      .btn{
-          min-width: 550px;
-      }
-    }
-  
+#home .border-top {
+    width: 90%;
+}
 
-  @media (min-width: 992px) and (max-width: 1199px) {
-    .dropdown-menu{
-        margin-left:-550px;
-    }
-    .btn{
-        min-width: 160px;
-    }
-  }
+#home footer a {
+    margin-left: 1em;
+    color: black;
+    font-size: 18px;
+    text-decoration: underline;
+}
 
-  @media (min-width: 1200px) {
-    .btn{
-        min-width: 160px;
-    }
-  }
+#home footer i {
+    margin-right: 0.5em;
+    font-size: 25px;
+    color: white;
+}
+
+footer .fa {
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+footer .fa:hover {
+    opacity: 0.2;
+}
+
+footer .fa-linkedin {
+    background-color: #3b5998;
+    color: white;
+}
+
+footer .fa-instagram {
+    background-color: #515151;
+    color: white;
+}
+
+footer .fa-twitter {
+    background-color: #55ACee;
+    color: white;
+}
+
+footer .fa-yelp {
+    background-color: red;
+    color: white;
+}
+
+footer .fa-facebook {
+    background-color: #3b5998;
+    color: white;
+}
+
+footer .fa-youtube {
+    background-color: red;
+    color: white;
+}
+
+section #partners .partner {
+    display:inline-block;
+    -moz-box-align: center;
+    margin: 3em;
+    padding: 0em;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+section #partners {
+    /* width: 1200px; */
+    /* padding: 2em 0 2em 0; */
+    padding: 2em;
+    margin: 0em;
+    text-align: center;
+}
+
+
