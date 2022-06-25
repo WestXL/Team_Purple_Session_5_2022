@@ -141,16 +141,7 @@ p {
     background-color: #03B1F4;
 }
 
-#home .showcase3 {
-    margin: 0;
-    text-align: left;
-    height: 850px;
-    width: 100%;
-    background-image: url(images/home-our-locations-bg.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
+#home .showcase3 img {}
 
 #home .locText {
     text-align: center;
