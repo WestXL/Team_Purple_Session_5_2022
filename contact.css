@@ -143,6 +143,11 @@ p {
 
 #home .showcase3 img {}
 
+.card-img-top {
+    border: 0.01em solid rgb(255, 255, 255);
+    border-radius: 5%;
+}
+
 #home .locText {
     text-align: center;
     color: #ffffff;
