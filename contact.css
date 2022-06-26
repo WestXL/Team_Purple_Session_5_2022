@@ -71,53 +71,7 @@
     padding-bottom: 0.3em;
 }
 
-@media (max-width:576px) {
-    .dropdown-menu {
-        width: auto;
-        margin-left: 0px;
-    }
 
-    .btn {
-        min-width: 350px;
-    }
-
-    .col {
-        flex-grow: unset;
-    }
-}
-
-
-@media (min-width:577px) and (max-width:991px) {
-    .dropdown-menu {
-        width: auto;
-        margin-left: 0px;
-    }
-
-    .btn {
-        min-width: 550px;
-    }
-
-    .col {
-        flex-grow: unset;
-    }
-}
-
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    .dropdown-menu {
-        margin-left: -550px;
-    }
-
-    .btn {
-        min-width: 160px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .btn {
-        min-width: 160px;
-    }
-}
 
 
 #home .showcase {
@@ -147,7 +101,6 @@
 }
 
 #home footer {
-    min-height: 600px;
     background-image: url(images/footer-bg.jpeg);
     background-repeat: no-repeat;
     background-position: center;
@@ -161,13 +114,13 @@
 #home footer a {
     margin-left: 1em;
     color: black;
-    font-size: 18px;
+    font-size: 15px;
     text-decoration: underline;
 }
 
 #home footer i {
     margin-right: 0.5em;
-    font-size: 25px;
+    font-size: 20px;
     color: white;
 }
 
@@ -176,6 +129,7 @@ footer .fa {
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
+
 }
 
 footer .fa:hover {
@@ -205,6 +159,8 @@ footer .fa-yelp {
 footer .fa-facebook {
     background-color: #3b5998;
     color: white;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 footer .fa-youtube {
@@ -226,4 +182,82 @@ section #partners {
     padding: 2em;
     margin: 0em;
     text-align: center;
+}
+
+.container {}
+
+@media (max-width:576px) {
+    .dropdown-menu {
+        width: auto;
+        margin-left: 0px;
+    }
+
+    .btn {
+        min-width: 350px;
+    }
+
+    .col {
+        flex-grow: unset;
+    }
+
+    #footerNav {
+        text-align: center;
+    }
+
+    #footerSocial {
+        justify-content: center !important;
+        margin-top: 4em;
+    }
+}
+
+
+@media (min-width:577px) and (max-width:991px) {
+    .dropdown-menu {
+        width: auto;
+        margin-left: 0px;
+    }
+
+    .btn {
+        min-width: 550px;
+    }
+
+    .col {
+        flex-grow: unset;
+    }
+
+    #footerNav {
+        text-align: center;
+    }
+
+    #footerSocial {
+        justify-content: center !important;
+        margin-top: 4em;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .dropdown-menu {
+        margin-left: -550px;
+    }
+
+    .btn {
+        min-width: 160px;
+    }
+
+    #footerNav {
+        text-align: center;
+    }
+
+    #footerSocial {
+        justify-content: center !important;
+        margin-top: 4em;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .btn {
+        min-width: 160px;
+    }
 }
