@@ -1,8 +1,15 @@
-#home .navbar-dark .navbar-nav .nav-link {
-    color: white;
+#home .logo {
+    width: 200px;
+    height: 70px;
+    margin-left: -10px;
+    padding-top: 0%;
+    padding-bottom: 0%;
 }
 
-.navbar-dark .navbar-nav {
+#home .navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -11,169 +18,132 @@
     align-self: stretch;
 }
 
-#home .logo {
-    width: 200px;
+#home .navbar-nav li:hover>a {
+    background: #ffff;
+    color: #444444 !important;
+    transition: background-color 0.3s ease-in;
 }
+
+.navbar-toggler[aria-expanded="true"] {
+    background-color: orange;
+}
+
+.dropdown-menu {
+    width: 1000px;
+    height: 400px;
+    margin-left: -550px;
+}
+
+.btn {
+    border-radius: 25px;
+}
+
+.dropdown_3columns {
+    width: 1200px;
+    float: left;
+    position: absolute;
+}
+
+
+.col_1,
+.col_3 {
+    display: inline;
+    float: left;
+    position: relative;
+    margin-left: 30px;
+    margin-right: 5px;
+}
+
+.col_1 {
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.col_1 h7 {
+    font-weight: bold;
+}
+
+.col_1 li {
+    color: #03B1F4;
+    font-weight: 700;
+    font-size: small;
+    padding-bottom: 0.3em;
+}
+
+@media (max-width:576px) {
+    .dropdown-menu {
+        width: auto;
+        margin-left: 0px;
+    }
+
+    .btn {
+        min-width: 350px;
+    }
+
+    .col {
+        flex-grow: unset;
+    }
+}
+
+
+@media (min-width:577px) and (max-width:991px) {
+    .dropdown-menu {
+        width: auto;
+        margin-left: 0px;
+    }
+
+    .btn {
+        min-width: 550px;
+    }
+
+    .col {
+        flex-grow: unset;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .dropdown-menu {
+        margin-left: -550px;
+    }
+
+    .btn {
+        min-width: 160px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .btn {
+        min-width: 160px;
+    }
+}
+
 
 #home .showcase {
     text-align: center;
     color: #ffffff;
-    height: 850px;
-    background-image: url(images/contact-hero.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("images/contact-hero.jpeg");
     background-size: cover;
+    height: 480px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
 }
 
 #home .showcase h1 {
-    font-size: 60px;
+    font-size: 40px;
 }
 
 #home #motto {
     /* left: 20px; */
-    top: 300px;
+    top: 220px;
     position: relative;
 }
-
-#home #vidButton1 {
-    border: 0ch;
-    top: 350px;
-    color: #03B1F4;
-    border-radius: 25px;
-    padding: 10px;
-    width: 240px;
-    background-color: #FFFFFF;
-}
-
-#home #vidButton2 {
-    border: 0ch;
-    margin-left: 2em;
-    top: 350px;
-    color: #03B1F4;
-    border-radius: 25px;
-    padding: 10px;
-    width: 240px;
-    background-color: #FFFFFF;
-}
-
-#home #regSignBtn {
-    border: 0ch;
-    color: #03B1F4;
-    border-radius: 25px;
-    padding: 10px;
-    width: 180px;
-    background-color: #FFFFFF;
-}
-
-#home #regBtn {
-    width: 1000px;
-    border: 0em;
-    height: 150px;
-    background-image: url(images/register-online-here-banner.png);
-}
-
-#home .container1 {
-    height: 200px;
-    position: relative;
-    /* border: solid 1px #03B1F4; */
-}
-
-#home .vertical-center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-#home .container2 {
-    bottom: 1em;
-    height: 280px;
-    position: relative;
-    /* border: solid 1px #03B1F4; */
-}
-
-#home #banner {
-    width: 1000px;
-    border: 0em;
-    height: 250px;
-    background-image: url(images/ww-site-hiring-banner-resized.png);
-}
-
-#home .showcase2 {
-    top: 1em;
-    margin: 0;
-    text-align: left;
-    height: 850px;
-    background-image: url(images/home-hands-on-teaching.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-#home .hands {
-    margin-top: 10%;
-    /* margin-left: 5%; */
-}
-
-#home .hands h2,
-h4,
-p {
-    margin-left: 15%;
-}
-
-#home .hands regClass {
-    text-align: center;
-}
-
-#home #regBtn2 {
-
-    margin: 0;
-    position: relative;
-    top: 5%;
-    left: 40%;
-    border: 0ch;
-    color: #FFFFFF;
-    border-radius: 25px;
-    padding: 10px;
-    width: 180px;
-    background-color: #03B1F4;
-}
-
-#home .showcase3 img {}
 
 .card-img-top {
     border: 0.01em solid rgb(255, 255, 255);
     border-radius: 5%;
-}
-
-#home .locText {
-    text-align: center;
-    color: #ffffff;
-    margin-top: 10%;
-}
-
-#home .locText h1,
-h3,
-p,
-button {
-    margin-left: 15%;
-}
-
-#home #locBtn {
-    border: 0ch;
-    color: #FFFFFF;
-    border-radius: 25px;
-    padding: 10px;
-    width: 240px;
-    background-color: #03B1F4;
-}
-
-#home .pins {
-    content: url(images/home-our-locations-map.png);
-    height: 850px;
-    background-color: rgba(0, 0, 0, 0.0);
 }
 
 #home footer {
