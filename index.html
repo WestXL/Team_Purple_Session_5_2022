@@ -12,13 +12,18 @@
         <link rel="stylesheet"
               href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet"
-              href="contact.css">
-        <link href="https://fonts.googleapis.com/css?family=Bodoni Moda"
-              rel="stylesheet" />
-        <title>Splash-Contact</title>
+              href="index.css">
+        <link rel="preconnect"
+              href="https://fonts.googleapis.com">
+        <link rel="preconnect"
+              href="https://fonts.gstatic.com"
+              crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,700&display=swap"
+              rel="stylesheet">
     </head>
 
-    <body id="home">
+    <body id="home"
+          style="background: rgb(255, 255, 255);">
         <nav class="sticky-top navbar navbar-expand-xl navbar-dark"
              style="background:#1A2E38; opacity:90%;">
             <div class="container-fluid"><a class="navbar-brand main-header"
@@ -109,105 +114,208 @@
                         <a class="btn btn-light action-button"
                            role="button"
                            href="#"
-                           style="background:#FFFFFF; color:#03B1F4; font-weight:bold">Register /
-                            Sign In</a></span>
+                           style="background:#FFFFFF; color:#03B1F4; font-weight:bold"
+                           data-toggle="modal"
+                           data-target="#modalLoginForm">Register / Sign In</a></span>
                 </div>
             </div>
         </nav>
+        <div class="modal fade"
+             id="modalLoginForm"
+             tabindex="-1"
+             role="dialog"
+             aria-labelledby="myModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog modal-lg"
+                 id="signModal"
+                 role="document">
+                <div class="modal-content">
+                    <img id="wave"
+                         src="Graphics/splash-wave.png">
+                    <div class="modal-header text-center border-0">
+                        <img id="shark"
+                             src="Graphics/shark-full.png">
+                        <h4 id="mtitle"
+                            class="modal-title w-100 text-center text-uppercase"> Sign in</h4>
+                    </div>
+                    <form class="needs-validation"
+                          novalidate>
+                        <div class="modal-body mx-3 border-0"
+                             id="memail">
+                            <label data-error="wrong"
+                                   data-success="right"
+                                   for="defaultForm-email">Your email</label>
+                            <div class="md-form mb-2">
+                                <input type="email"
+                                       id="defaultForm-email"
+                                       class="form-control validate">
+                            </div>
+                            <div class="md-form mb-4">
+                                <label data-error="wrong"
+                                       data-success="right"
+                                       for="defaultForm-pass">Password</label>
+                                <input type="password"
+                                       id="defaultForm-pass"
+                                       class="form-control validate">
+                            </div>
+                        </div>
+                        <!-- <div class="container-fluid"> -->
+                        <div class="row">
+                            <!-- <div class="col"></div> -->
+                            <div class="col-10 col-md-5 offset-1 offset-md-1 border-0">
+                                <button id="mbutton1"
+                                        class="w-100">Sign In</button>
+                            </div>
+                            <div class="col-10 col-md-5 offset-1 offset-md-0 border-0 mb-4">
+                                <button id="mbutton2"
+                                        class="w-100 border">Sign Up</button>
+                                <!-- </div> -->
+                                <!-- <div class="col"></div> -->
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
         <section class="showcase container-fluid text-center">
-            <div class="container-fluid">
-                <h1 class="col font-weight-bold"
-                    id="motto">Contact Us</h1>
+            <div class="container">
+                <h1 class="col"
+                    id="motto">Learning it the Right Way,<br>Right from the Beginning</h1>
+            </div>
+            <div class="row">
+                <div class="col-3 col-sm-4"></div>
+                <button class="col-6 col-sm-2 mt-4 mr-3"
+                        id="vidButton1">Informational Video</button>
+                <button class="col-6 offset-3 offset-sm-0 col-sm-2 mt-4"
+                        id="vidButton2">Swimvenger Video</button>
+                <div class="col-3 col-sm-4"></div>
             </div>
         </section>
         <section class="container-fluid">
             <div class="row">
-                <div
-                     class="col-10 offset-1 col-sm-8 offset-sm-2 offset-xl-3 col-xl-6 mt-5 mb-5 text-center">
-                    <p> We'd love to help. Send us an email using one of the buttons below and a
-                        representative will get back to you as soon as possible. </p>
+                <img class="col-10 offset-1 mt-4"
+                     id="regBtn"
+                     src="images/register-online-here-banner.png"></img>
+            </div>
+        </section>
+        <section class="container-fluid">
+            <div class="row">
+                <img class="col-10 offset-1 mt-4 mb-4"
+                     id="regBtn"
+                     src="images/ww-site-hiring-banner-resized.png"></img>
+            </div>
+        </section>
+        <section class="showcase2 container-fluid">
+            <div class="row">
+                <div class="hands col-11 col-xl-5">
+                    <h2>Hands On Teaching</h2>
+                    <p> Splashes Swim School provides high quality swim instruction and the ideal
+                        environment for learning how to swim. Our swim instructors use specialized
+                        "muscle memory" teaching techniques that help our students progress at a
+                        quick rate. Grouped by age and ability, our students benefit from swim
+                        classes that offer personalized attention. It's never too late to learn to
+                        swim! </p>
+                    <p><b>Splashes Offers: </b></p>
+                    <ul style="margin-left: 15%">
+                        <li><a><u>Private Swimming lessons</a></u> - All Locations</li>
+                        <li><a><u>Semi-Private Swimming lessons</a></u> - All Locations</li>
+                        <li><a><u>Parent & Me (Baby) Swimming Lessons</a></u> - Select Locations
+                        </li>
+                    </ul>
+                    <p>Select locations also offer additional swim programs such as swim
+                        competitions, swim teams, water aerobics, aquatic therapy, swim camps and
+                        more! To learn more about the Waterworks Family Swim School near you, select
+                        a location below.</p>
+                    <p>Ready to sign up?</p>
+                    <div class="regClass">
+                        <button id="regBtn2"
+                                class="mt-4"> REGISTER NOW </button>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="showcase3 container-fluid">
-            <div class="row">
-                <div class="row col-8 offset-1 col-sm-10 offset-sm-1 col-xl-8 offset-xl-2 mb-5">
-                    <div class="col-8 col-sm-3">
-                        <div class="card border-0">
-                            <img class="card-img-top p-3 align-self-center shadow"
-                                 src="/images/icon-buttons/question.svg">
-                            <div class="card-body text-center">
-                                <a class="card-text"><u>New Customer Inquires</u></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-8 col-sm-3">
-                        <div class="card border-0">
-                            <img class="card-img-top p-3 align-self-center shadow"
-                                 src="/images/icon-buttons/party-coordinator-form.svg">
-                            <div class="card-body text-center">
-                                <a class="card-text"><u>Contact Party Coordinator</u></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-8 col-sm-3">
-                        <div class="card border-0">
-                            <img class="card-img-top p-3 align-self-center shadow"
-                                 src="/images/icon-buttons/concern.svg">
-                            <div class="card-body text-center">
-                                <a class="card-text"><u>Voice a Concern</u></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-8 col-sm-3">
-                        <div class="card border-0">
-                            <img class="card-img-top p-3 align-self-center shadow"
-                                 src="/images/icon-buttons/swimming-pool.svg">
-                            <div class="card-body text-center">
-                                <a class="card-text"><u>Pool Rental</u></a>
-                            </div>
-                        </div>
-                    </div>
+        <section class="showcase3">
+            <div class="row no-gutters">
+                <div class="locText col-11 col-xl-5">
+                    <h1>Find a Splashes Swim School near you</h1>
+                    <h3>Family Swim School Locations</h3>
+                    <p> Splashes offers the finest professional swimming lessons from 21 swim
+                        schools and aquatic centers in California and Denver.</p>
+                    <button id="locBtn"
+                            class="mt-4">Find a Location Near You</button>
                 </div>
-                <div class="row col-8 offset-1 col-sm-10 offset-sm-1 col-xl-8 offset-xl-2 mb-5">
-                    <div class="col-8 col-sm-3">
-                        <div class="card border-0">
-                            <img class="card-img-top p-3 align-self-center shadow"
-                                 src="/images/icon-buttons/suggestion.svg">
-                            <div class="card-body text-center">
-                                <a class="card-text"><u>Give a Suggestion</u></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-8 col-sm-3">
-                        <div class="card border-0">
-                            <img class="card-img-top p-3 align-self-center shadow"
-                                 src="/images/icon-buttons/compliment.svg">
-                            <div class="card-body text-center">
-                                <a class="card-text"><u>Share a Compliment</u></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-8 col-sm-3">
-                        <div class="card border-0">
-                            <img class=" card-img-top p-3 align-self-center shadow"
-                                 src="/images/icon-buttons/form.svg">
-                            <div class="card-body text-center">
-                                <a class="card-text"><u>Water Safety Presentation Inquiry</u></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-8 col-sm-3">
-                        <div class="card border-0">
-                            <img class=" card-img-top p-3 align-self-center shadow"
-                                 src="/images/icon-buttons/baby.svg">
-                            <div class="card-body text-center">
-                                <a class="card-text"><u>Parent & Me Lesson Interest</u></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <div class="col-1"></div>
+                <img class="pins col-6 nopadding">
             </div>
+        </section>
+        <section>
+            <ul id="partners"
+                class="container-fluid"
+                style="background-color:white">
+                <div class="row">
+                    <h1 class="col-12 text-center center-block mt-5">Awards We've Won</h1>
+                </div>
+                <div class="row">
+                    <div class="col"></div>
+                    <li class="partner col-12 col-sm-4 col-md-2 col-lg-2 text-center">
+                        <img src="images/awards/colorado-parenting-family-fav2021.png"
+                             alt="Partner Tour Group">
+                    </li>
+                    <li class="partner col-12 col-sm-4 col-md-2 col-lg-2 text-center">
+                        <img src="images/awards/bay-area-parent-gold2020.png"
+                             alt="Partner Cabin Rental">
+                    </li>
+                    <li class="partner col-12 col-sm-4 col-md-2 col-lg-2 text-center">
+                        <img src="images/awards/mla-swim-lessons-winner-2020-250x250.png"
+                             alt="Partner Tour Group">
+                    </li>
+                    <div class="col"></div>
+                </div>
+                <div class="row">
+                    <div class="col"></div>
+                    <li class="partner col-12 col-sm-3 col-md-2 col-lg-2 text-center">
+                        <img src="images/awards/colorado-parenting-family-fav2020.png"
+                             alt="Partner Tour Group">
+                    </li>
+                    <li class="partner col-12 col-sm-3 col-md-2 col-lg-2 text-center">
+                        <img src="images/awards/website-parenting-oc-2019.jpeg"
+                             alt="Partner Tour Group">
+                    </li>
+                    <li class="partner col-12 col-sm-3 col-md-2 col-lg-2 text-center">
+                        <img src="images/awards/colorado-parenting-family-fav2019.jpeg"
+                             alt="Partner Tour Group">
+                    </li>
+                    <div class="col"></div>
+                </div>
+                <!-- <li class="partner col-6 col-sm-4 col-md-3 col-lg-3">
+                    <img src="images/awards/best-colorado-community-media-2021.jpeg"
+                         alt="Partner Camping Adventure">
+                </li> -->
+                <div class="row">
+                    <div class="col"></div>
+                    <li class="partner col-12 col-sm-3 col-md-2 col-lg-2 text-center">
+                        <img src="images/awards/bay-area-parent-2019.jpeg"
+                             alt="Partner Bus Tours">
+                    </li>
+                    <li class="partner col-12 col-sm-3 col-md-2 col-lg-2 text-center">
+                        <img src="images/awards/best-of-la-kids-winner.jpeg"
+                             alt="Partner Bike Rentals">
+                    </li>
+                    <li class="partner col-12 col-sm-3 col-md-2 col-lg-2 text-center">
+                        <img src="images/awards/gold-daisy-award-finalist-2018.jpeg"
+                             alt="Partner Tour Group">
+                    </li>
+                    <div class="col"></div>
+                </div>
+                <div class="row">
+                    <div class="col-2"></div>
+                    <li class="partner col-12 col-sm-3 col-md-2 col-lg-2 text-center">
+                        <img src="images/awards/best-of-the-best-2018.jpeg"
+                             alt="Partner College Tours">
+                    </li>
+                    <div class="col"></div>
+                </div>
+            </ul>
         </section>
         <footer>
             <div class="footerLogo container-fluid text-center">
@@ -225,6 +333,9 @@
                         <a href="#">Register / Sign In</a>
                         <a href="#">Careers</a>
                     </div>
+                    <!-- <div id="padSocial"
+                                 class="col"></div> -->
+                    <!-- <div class="mr-4"> -->
                     <div id="footerSocial"
                          class="row col-12 float-xl-right col-xl-7 justify-content-end">
                         <!-- <div class="col"></div> -->
@@ -290,11 +401,11 @@
                 </div>
             </div>
         </footer>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script
-                src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
-        <script src="assets/js/script.min.js"></script>
     </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
+    <script src="assets/js/script.min.js"></script>
 
 </html>
