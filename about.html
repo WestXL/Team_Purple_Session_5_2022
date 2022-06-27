@@ -22,7 +22,7 @@
         <nav class="sticky-top navbar navbar-expand-xl navbar-dark"
              style="background:#1A2E38; opacity:90%;">
             <div class="container-fluid"><a class="navbar-brand main-header"
-                   href="#">
+                   href="index.html">
                     <img class="logo"
                          src="/images/logo-small.png"
                          href="index.html"
@@ -116,6 +116,63 @@
                 </div>
             </div>
         </nav>
+        <div class="modal fade"
+             id="modalLoginForm"
+             tabindex="-1"
+             role="dialog"
+             aria-labelledby="myModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog modal-lg"
+                 id="signModal"
+                 role="document">
+                <div class="modal-content">
+                    <img id="wave"
+                         src="Graphics/splash-wave.png">
+                    <div class="modal-header text-center border-0">
+                        <img id="shark"
+                             src="Graphics/shark-full.png">
+                        <h4 id="mtitle"
+                            class="modal-title w-100 text-center text-uppercase"> Sign in</h4>
+                    </div>
+                    <form class="needs-validation"
+                          novalidate>
+                        <div class="modal-body mx-3 border-0"
+                             id="memail">
+                            <label data-error="wrong"
+                                   data-success="right"
+                                   for="defaultForm-email">Your email</label>
+                            <div class="md-form mb-2">
+                                <input type="email"
+                                       id="defaultForm-email"
+                                       class="form-control validate">
+                            </div>
+                            <div class="md-form mb-4">
+                                <label data-error="wrong"
+                                       data-success="right"
+                                       for="defaultForm-pass">Password</label>
+                                <input type="password"
+                                       id="defaultForm-pass"
+                                       class="form-control validate">
+                            </div>
+                        </div>
+                        <!-- <div class="container-fluid"> -->
+                        <div class="row">
+                            <!-- <div class="col"></div> -->
+                            <div class="col-10 col-md-5 offset-1 offset-md-1 border-0">
+                                <button id="mbutton1"
+                                        class="w-100">Sign In</button>
+                            </div>
+                            <div class="col-10 col-md-5 offset-1 offset-md-0 border-0 mb-4">
+                                <button id="mbutton2"
+                                        class="w-100 border">Sign Up</button>
+                                <!-- </div> -->
+                                <!-- <div class="col"></div> -->
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
         <header class="showcase container-fluid text-center">
             <div class="container">
                 <h1 class="col heading"
