@@ -7,7 +7,7 @@
 }
 
 #home .navbar-dark .navbar-nav .nav-link {
-    color: white;
+    /* color: white; */
     font-weight: bold;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
