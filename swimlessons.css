@@ -258,7 +258,7 @@
 }
 
 /* copied from styles.css */
-#home .showcase{
+#home .showcase {
     background: url(images/which-lesson-is-best.jpeg);
     background-position: center;
     background-repeat: no-repeat;
@@ -477,6 +477,137 @@ section #partners {
     padding: 2em;
     margin: 0em;
     text-align: center;
+}
+
+/* modal */
+
+.modal-backdrop {
+    background-color: white;
+    opacity: 0.9 !important;
+}
+
+#signModal {
+    top: 25%;
+    /* left: 20%; */
+    box-shadow: 5px 5px 12px rgb(157, 157, 157);
+}
+
+#shark {
+    margin-left: -114px;
+}
+
+#wave {
+    width: min-content;
+    margin-top: -80px;
+    margin-left: 35%
+}
+
+#mtitle {
+    margin-top: 5%;
+    margin-left: -10%;
+    font-size: 30px;
+    color: #515151;
+}
+
+#memail {
+    margin-top: -15%;
+}
+
+#mbutton1 {
+    border: 0ch;
+    color: #FFFFFF;
+    background-color: #03B1F4;
+    border-radius: 25px;
+    padding: 10px;
+    width: 300%;
+}
+
+#mbutton2 {
+    border: 10px;
+    color: #03B1F4;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    padding: 10px;
+    width: 300%;
+}
+
+@media only screen and (max-width:767px) {
+    #wave {
+
+        width: min-content;
+        margin-top: -100px;
+        margin-left: 25%
+    }
+
+    .modal-lg,
+    .modal-xl {
+        max-width: 400px;
+    }
+
+    /* .btn {
+        min-width: 300px;
+    }
+
+    #mbutton2 {
+        margin-left: 10%;
+    } */
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+    .modal-lg,
+    .modal-xl {
+        max-width: 700px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .modal-lg,
+    .modal-xl {
+        max-width: 700px;
+    }
+}
+
+#home .get h1 {
+    text-align: center;
+    color: rgb(76, 75, 75);
+    font-family: 'Bodoni Moda 72pt ExtraBold';
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#home .text {
+    padding-top: 2em;
+}
+
+.txt {
+    margin: auto;
+}
+
+.mission {
+    display: flex;
+    justify-content: center;
+}
+
+#home p {
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Open Sans';
+    color: rgb(103, 103, 103);
+}
+
+#home .lap p {
+    text-align: left;
+    font-weight: bolder;
+    color: black;
+    font-family: 'Open Sans';
+}
+
+#home main .lap a {
+    color: rgb(43, 207, 248);
+    text-decoration: underline;
 }
 
 /* modal */
