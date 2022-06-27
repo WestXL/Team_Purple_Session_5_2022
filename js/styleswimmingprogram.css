@@ -1,0 +1,10 @@
+#swimmingprogram .showcase {
+  margin: 0;
+  text-align: left;
+  height: 850px;
+  width: 100%;
+  background-image: url(images/summer-swim-camps.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
