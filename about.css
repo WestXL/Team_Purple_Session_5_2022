@@ -152,6 +152,9 @@
   }
 
   @media (min-width: 1200px) {
+    .dropdown-menu{
+        margin-left:-550px !important;
+    }
     .btn{
         min-width: 160px;
     }
