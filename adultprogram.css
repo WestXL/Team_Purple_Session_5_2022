@@ -167,7 +167,7 @@
     font-family: 'Open Sans';
 }
 #adultprogram .showcase h1 {
-    font-size: 50px;
+    font-size: 40px;
 }
 #adultprogram #motto {
     top: 150px;
@@ -178,15 +178,22 @@
     font-weight: bold;
     color: white;
 }
-
 #adultprogram .get h1 {
     text-align: center;
     color: rgb(76, 75, 75);
     font-family: 'Bodoni Moda 72pt ExtraBold';
     font-weight: bold;
+    font-size: 30px;
 }
 #adultprogram .text {
     padding-top: 2em;
+}
+.txt {
+    margin: auto; 
+}
+.mission {
+    display: flex;
+    justify-content: center;
 }
 #adultprogram p {
     text-align: left;
