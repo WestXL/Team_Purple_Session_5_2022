@@ -176,335 +176,338 @@
         margin-left: 0px;
     }
 
-    .btn {
-        min-width: 550px;
-        border-radius: 25px;
+    @media (min-width: 992px) and (max-width: 1199px) {
+        .dropdown-menu {
+            margin-left: -550px !important;
+        }
+
+        .col {
+            flex-grow: unset;
+        }
+    }
+
+
+    @media (min-width: 992px) and (max-width: 1199px) {
+        .dropdown-menu {
+            margin-left: -550px;
+        }
+
+        .btn {
+            min-width: 160px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .dropdown-menu {
+            margin-left: -550px !important;
+        }
+
+        .btn {
+            min-width: 160px;
+        }
+    }
+
+    /*-------------------------------------- Adult Program Page ----------------------------------*/
+
+    #adultprogram header {
+        background: url(images/lap-swimming.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: rgb(203, 247, 220);
+        height: 400px;
+        width: 100%;
+        font-family: 'Open Sans';
+    }
+
+    #adultprogram .showcase h1 {
+        font-size: 40px;
+    }
+
+    #adultprogram #motto {
+        top: 150px;
+        position: relative;
+    }
+
+    #adultprogram .heading {
+        font-family: 'Bodoni Moda 72pt ExtraBold';
+        font-weight: bold;
+        color: white;
+    }
+
+    #adultprogram .get h1 {
+        text-align: center;
+        color: rgb(76, 75, 75);
+        font-family: 'Bodoni Moda 72pt ExtraBold';
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    #adultprogram .text {
+        padding-top: 2em;
+    }
+
+    .txt {
+        margin: auto;
+    }
+
+    .mission {
+        display: flex;
+        justify-content: center;
+    }
+
+    #adultprogram p {
+        text-align: left;
+        padding-left: 100px;
+        padding-right: 100px;
+        font-family: 'Open Sans';
+        color: rgb(103, 103, 103);
+    }
+
+    #adultprogram .lap p {
+        text-align: left;
+        font-weight: bolder;
+        color: black;
+        font-family: 'Open Sans';
+    }
+
+    #adultprogram main .lap a {
+        color: rgb(43, 207, 248);
+        text-decoration: underline;
+    }
+
+    /*---------------------------------------- FOOTER ---------------------------------------------------------*/
+    footer {
+        background: url(images/footer-bg.jpeg);
+        background-size: 1500px;
+        height: 100%;
+        display: block;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .footer_img {
+        text-align: center;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .footer_link {
+        display: inline-block;
+    }
+
+    #contact-b {
+        border-top: 1px rgb(199, 197, 197) solid;
+        border-bottom: 1px rgb(199, 197, 197) solid;
+        text-align: center;
+        margin: auto;
+        width: 80%;
+        margin-bottom: 2em;
 
     }
 
-    .col {
-        flex-grow: unset;
-    }
-}
-
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    .dropdown-menu {
-        margin-left: -550px;
+    #contact-n {
+        text-align: center;
+        display: grid;
+        margin-top: 1em;
     }
 
-    .btn {
-        min-width: 160px;
+    #contact-n ul {
+        list-style-type: none;
+        padding: 1em;
+        display: inline-block;
     }
-}
 
-@media (min-width: 1200px) {
-    .btn {
-        min-width: 160px;
+    #contact-n ul li {
+        font-weight: bold;
+        color: rgb(88, 83, 83);
     }
-}
 
-/*-------------------------------------- Adult Program Page ----------------------------------*/
+    #contact-n ul a {
+        color: rgb(103, 103, 103);
+        text-decoration: underline;
+        font-weight: lighter;
+    }
 
-#adultprogram header {
-    background: url(images/lap-swimming.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgb(203, 247, 220);
-    height: 400px;
-    width: 100%;
-    font-family: 'Open Sans';
-}
+    .ft {
+        padding-left: 20px;
+        text-decoration: underline;
+        color: dimgray;
+        font-weight: bold;
+        font-size: small;
+    }
 
-#adultprogram .showcase h1 {
-    font-size: 40px;
-}
+    footer .social .fa {
+        padding: 15px;
+        font-size: 15px;
+        width: 15px;
+        text-decoration: none;
+        margin: 0 4px;
+        border-radius: 50%;
+        padding-right: 28px;
+    }
 
-#adultprogram #motto {
-    top: 150px;
-    position: relative;
-}
+    footer .social .fa:hover {
+        opacity: 0.7;
+    }
 
-#adultprogram .heading {
-    font-family: 'Bodoni Moda 72pt ExtraBold';
-    font-weight: bold;
-    color: white;
-}
+    footer .social .fa-linkedin {
+        background: #007bb5;
+        color: white;
+    }
 
-#adultprogram .get h1 {
-    text-align: center;
-    color: rgb(76, 75, 75);
-    font-family: 'Bodoni Moda 72pt ExtraBold';
-    font-weight: bold;
-    font-size: 30px;
-}
+    footer .social .fa-instagram {
+        background: #125688;
+        color: white;
+    }
 
-#adultprogram .text {
-    padding-top: 2em;
-}
+    footer .social .fa-twitter {
+        background: #55acee;
+        color: white;
+    }
 
-.txt {
-    margin: auto;
-}
+    .fa-yelp {
+        background: #cb2027;
+        color: white;
+    }
 
-.mission {
-    display: flex;
-    justify-content: center;
-}
+    footer .social .fa-facebook {
+        background: #3b5998;
+        color: white;
+    }
 
-#adultprogram p {
-    text-align: left;
-    padding-left: 100px;
-    padding-right: 100px;
-    font-family: 'Open Sans';
-    color: rgb(103, 103, 103);
-}
+    .fa-youtube {
+        background: #bb0000;
+        color: white;
+    }
 
-#adultprogram .lap p {
-    text-align: left;
-    font-weight: bolder;
-    color: black;
-    font-family: 'Open Sans';
-}
+    footer .social {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 70px;
+        padding-bottom: 30px;
 
-#adultprogram main .lap a {
-    color: rgb(43, 207, 248);
-    text-decoration: underline;
-}
+    }
 
-/*---------------------------------------- FOOTER ---------------------------------------------------------*/
-footer {
-    background: url(images/footer-bg.jpeg);
-    background-size: 1500px;
-    height: 100%;
-    display: block;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+    footer .ft1 {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 70px;
+        padding-bottom: 50px;
+        color: rgb(74, 71, 71) !important;
+    }
 
-.footer_img {
-    text-align: center;
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
+    /* ---------------------------------------------- Sponsor ------------------------------------------------------ */
 
-.footer_link {
-    display: inline-block;
-}
+    #sponsors {
+        display: grid;
+        text-align: center;
+        height: auto;
+    }
 
-#contact-b {
-    border-top: 1px rgb(199, 197, 197) solid;
-    border-bottom: 1px rgb(199, 197, 197) solid;
-    text-align: center;
-    margin: auto;
-    width: 80%;
-    margin-bottom: 2em;
+    #copy {
+        font-family: 'Open Sans';
+        color: rgb(103, 103, 103);
+    }
 
-}
+    #sponsors li:nth-child(4) {
+        background-color: #125688;
+        justify-content: center;
+        align-self: center;
+        align-items: center;
+    }
 
-#contact-n {
-    text-align: center;
-    display: grid;
-    margin-top: 1em;
-}
+    .test1 {
+        display: grid;
+    }
 
-#contact-n ul {
-    list-style-type: none;
-    padding: 1em;
-    display: inline-block;
-}
+    /* modal */
 
-#contact-n ul li {
-    font-weight: bold;
-    color: rgb(88, 83, 83);
-}
+    .modal-backdrop {
+        background-color: white;
+        opacity: 0.9 !important;
+    }
 
-#contact-n ul a {
-    color: rgb(103, 103, 103);
-    text-decoration: underline;
-    font-weight: lighter;
-}
+    #signModal {
+        top: 25%;
+        /* left: 20%; */
+        box-shadow: 5px 5px 12px rgb(157, 157, 157);
+    }
 
-.ft {
-    padding-left: 20px;
-    text-decoration: underline;
-    color: dimgray;
-    font-weight: bold;
-    font-size: small;
-}
+    #shark {
+        margin-left: -114px;
+    }
 
-footer .social .fa {
-    padding: 15px;
-    font-size: 15px;
-    width: 15px;
-    text-decoration: none;
-    margin: 0 4px;
-    border-radius: 50%;
-    padding-right: 28px;
-}
-
-footer .social .fa:hover {
-    opacity: 0.7;
-}
-
-footer .social .fa-linkedin {
-    background: #007bb5;
-    color: white;
-}
-
-footer .social .fa-instagram {
-    background: #125688;
-    color: white;
-}
-
-footer .social .fa-twitter {
-    background: #55acee;
-    color: white;
-}
-
-.fa-yelp {
-    background: #cb2027;
-    color: white;
-}
-
-footer .social .fa-facebook {
-    background: #3b5998;
-    color: white;
-}
-
-.fa-youtube {
-    background: #bb0000;
-    color: white;
-}
-
-footer .social {
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 70px;
-    padding-bottom: 30px;
-
-}
-
-footer .ft1 {
-    display: flex;
-    justify-content: flex-start;
-    padding-left: 70px;
-    padding-bottom: 50px;
-    color: rgb(74, 71, 71) !important;
-}
-
-/* ---------------------------------------------- Sponsor ------------------------------------------------------ */
-
-#sponsors {
-    display: grid;
-    text-align: center;
-    height: auto;
-}
-
-#copy {
-    font-family: 'Open Sans';
-    color: rgb(103, 103, 103);
-}
-
-#sponsors li:nth-child(4) {
-    background-color: #125688;
-    justify-content: center;
-    align-self: center;
-    align-items: center;
-}
-
-.test1 {
-    display: grid;
-}
-
-/* modal */
-
-.modal-backdrop {
-    background-color: white;
-    opacity: 0.9 !important;
-}
-
-#signModal {
-    top: 25%;
-    /* left: 20%; */
-    box-shadow: 5px 5px 12px rgb(157, 157, 157);
-}
-
-#shark {
-    margin-left: -114px;
-}
-
-#wave {
-    width: min-content;
-    margin-top: -80px;
-    margin-left: 35%
-}
-
-#mtitle {
-    margin-top: 5%;
-    margin-left: -10%;
-    font-size: 30px;
-    color: #515151;
-}
-
-#memail {
-    margin-top: -15%;
-}
-
-#mbutton1 {
-    border: 0ch;
-    color: #FFFFFF;
-    background-color: #03B1F4;
-    border-radius: 25px;
-    padding: 10px;
-    width: 300%;
-}
-
-#mbutton2 {
-    border: 10px;
-    color: #03B1F4;
-    background-color: #FFFFFF;
-    border-radius: 25px;
-    padding: 10px;
-    width: 300%;
-}
-
-@media only screen and (max-width:767px) {
     #wave {
-
         width: min-content;
-        margin-top: -100px;
-        margin-left: 25%
+        margin-top: -80px;
+        margin-left: 35%
     }
 
-    .modal-lg,
-    .modal-xl {
-        max-width: 400px;
+    #mtitle {
+        margin-top: 5%;
+        margin-left: -10%;
+        font-size: 30px;
+        color: #515151;
     }
 
-    /* .btn {
+    #memail {
+        margin-top: -15%;
+    }
+
+    #mbutton1 {
+        border: 0ch;
+        color: #FFFFFF;
+        background-color: #03B1F4;
+        border-radius: 25px;
+        padding: 10px;
+        width: 300%;
+    }
+
+    #mbutton2 {
+        border: 10px;
+        color: #03B1F4;
+        background-color: #FFFFFF;
+        border-radius: 25px;
+        padding: 10px;
+        width: 300%;
+    }
+
+    @media only screen and (max-width:767px) {
+        #wave {
+
+            width: min-content;
+            margin-top: -100px;
+            margin-left: 25%
+        }
+
+        .modal-lg,
+        .modal-xl {
+            max-width: 400px;
+        }
+
+        /* .btn {
         min-width: 300px;
     }
 
     #mbutton2 {
         margin-left: 10%;
     } */
-}
-
-@media (min-width: 768px) and (max-width: 1199px) {
-
-    .modal-lg,
-    .modal-xl {
-        max-width: 700px;
     }
-}
 
-@media (min-width: 1200px) {
+    @media (min-width: 768px) and (max-width: 1199px) {
 
-    .modal-lg,
-    .modal-xl {
-        max-width: 700px;
+        .modal-lg,
+        .modal-xl {
+            max-width: 700px;
+        }
     }
-}
+
+    @media (min-width: 1200px) {
+
+        .modal-lg,
+        .modal-xl {
+            max-width: 700px;
+        }
+    }
