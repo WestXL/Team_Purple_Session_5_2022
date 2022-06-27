@@ -22,14 +22,12 @@
               rel="stylesheet">
     </head>
 
-    <body id="home"
-          style="background: rgb(255, 255, 255);">
+    <body id="home">
         <nav class="sticky-top navbar navbar-expand-xl navbar-dark"
              style="background:#1A2E38; opacity:90%;">
             <div class="container-fluid"><a class="navbar-brand main-header"
                    href="index.html">
                     <img class="logo"
-                         onclick="index.html"
                          src="/images/logo-small.png"
                          loading="lazy"></a>
                 <button data-toggle="collapse"
@@ -42,9 +40,9 @@
                         <li class="nav-item"><a class="nav-link"
                                href="about.html">About</a></li>
                         <li class="nav-item"><a class="nav-link"
-                               href="#">Swimming Lessons</a></li>
+                               href="Swimmingclass3.html">Swimming Lessons</a></li>
                         <li class="nav-item"><a class="nav-link"
-                               href="#">Swim Programs</a></li>
+                               href="Swimmingprogram.html">Swim Programs</a></li>
                         <li class="nav-item"><a class="nav-link"
                                href="adultprogram.html">Adult Programs</a></li>
                         <li class="nav-item dropdown"><a class="nav-link"
@@ -109,7 +107,7 @@
                                         </div>
                                     </div><!-- End 3 columns container -->
                         </li>
-                        <li class="nav-item"><a class="nav-link"
+                        <li class="nav-item"><a class="nav-link active"
                                href="contact.html">Contact Us</a></li>
                     </ul><span class="navbar-text actions">
                         <a class="btn btn-light action-button"
@@ -327,11 +325,13 @@
                 <div class="row">
                     <div id="footerNav"
                          class="col-12 col-xl-5">
-                        <a href="#">About</a>
+                        <a href="about.html">About</a>
                         <a href="#">Locations</a>
                         <a href="#">FAQs</a>
-                        <a href="#">Contact</a>
-                        <a href="#">Register / Sign In</a>
+                        <a href="contact.html">Contact</a>
+                        <a href="#"
+                           data-toggle="modal"
+                           data-target="#modalLoginForm">Register / Sign In</a>
                         <a href="#">Careers</a>
                     </div>
                     <!-- <div id="padSocial"

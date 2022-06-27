@@ -8,7 +8,7 @@
 }
 
 #home .navbar-dark .navbar-nav .nav-link {
-    color: white;
+    /* color: white; */
     font-weight: bold;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
@@ -258,7 +258,7 @@
 }
 
 /* copied from styles.css */
-#home .showcase{
+#home .showcase {
     background: url(images/summer-swim-camps.jpeg);
     background-position: center;
     background-repeat: no-repeat;

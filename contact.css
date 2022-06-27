@@ -186,8 +186,6 @@ section #partners {
     text-align: center;
 }
 
-.container {}
-
 @media only screen and (max-width:576px) {
     .dropdown-menu {
         width: auto;
