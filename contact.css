@@ -7,7 +7,7 @@
 }
 
 #home .navbar-dark .navbar-nav .nav-link {
-    color: white;
+    /* color: white; */
     font-weight: bold;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
@@ -185,8 +185,6 @@ section #partners {
     margin: 0em;
     text-align: center;
 }
-
-.container {}
 
 @media only screen and (max-width:576px) {
     .dropdown-menu {
