@@ -82,7 +82,7 @@
     margin-left: -550px;
 }
 .btn {
-    border-radius: 25px;
+    border-radius: 25px !important;
 }
 .dropdown_3columns {
     width: 1200px;

@@ -79,8 +79,9 @@
     margin-left: -550px;
 }
 .btn {
-    border-radius: 25px;
-}
+    border-radius: 25px !important;
+} 
+
 .dropdown_3columns {
     width: 1200px;
 	float:left;
@@ -132,6 +133,8 @@
       }
       .btn{
           min-width: 550px;
+          border-radius: 25px;
+
       }
       .col {
         flex-grow:unset;
